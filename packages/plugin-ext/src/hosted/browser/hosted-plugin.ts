@@ -101,8 +101,20 @@ export class HostedPluginSupport extends AbstractHostedPluginSupport<PluginManag
         'onCustomEditor',
         'onStartupFinished',
         'onAuthenticationRequest',
+        'onChatParticipant',
+        'onEditSession',
+        'onIssueReporterOpened',
+        'onLanguageModelTool',
         'onNotebook',
-        'onNotebookSerializer'
+        'onNotebookSerializer',
+        'onOpenExternalUri',
+        'onProfile',
+        'onRenderer',
+        'onSearch',
+        'onTerminal',
+        'onTerminalShellIntegration',
+        'onTunnel',
+        'onWalkthrough'
     ];
 
     @inject(HostedPluginWatcher)
